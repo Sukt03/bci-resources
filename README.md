@@ -6,8 +6,6 @@ All resources related to BCI
 
 ## Datasets
 
-## EEG Datasets
-
 | **Dataset** | **Use / Paradigm** | **Subjects** | **Ch.** | **Device / Amp** | **Montage** | **Hz** | **Notes** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **TUH EEG Corpus (TUEG)**<br>[📄 Paper](https://arxiv.org/abs/1804.03669)<br>[📁 Dataset](https://isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml) | Clinical EEG (routine) | >10,000 | 19–25 | Clinical (Natus, Nihon-Kohden, etc.) | 10–20 clinical | Var. | Largest public clinical EEG corpus |
