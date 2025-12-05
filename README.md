@@ -23,10 +23,19 @@ All resources related to BCI Devices, Models and Devices
 ## Devices
 
 
+| **Device (Model)** | **Specs (Ch / Hz / Type)** | **Connectivity** | **Est. Price** | **Associated Datasets** |
+| :--- | :--- | :--- | :--- | :--- |
+| [**Emotiv EPOC+**](https://www.emotiv.com/epoc-plus/)<br>*(Emotiv, USA)* | **Ch:** 14<br>**Hz:** 128<br>**Type:** Saline (Wet) | Wireless (BT)<br>Portable | ~$800 | **EEG-based BCI**<br>*(Sánchez-Reolid et al., 2022)* |
+| [**Emotiv EPOC X**](https://www.emotiv.com/epoc-x/)<br>*(Emotiv, USA)* | **Ch:** 14<br>**Hz:** 128–256<br>**Type:** Saline (Wet) | Wireless (BT)<br>Portable | $999 | **Natural Image EEG**<br>*(Tiwari et al., 2025)* |
+| [**Emotiv Flex 2**](https://www.emotiv.com/flex/)<br>*(Emotiv, USA)* | **Ch:** 32<br>**Hz:** 256<br>**Type:** Gel (Ag/AgCl) | Wireless<br>Portable | $2,299 | **Alljoined-1.6M**<br>*(Gifford et al., 2025)* |
+| [**NuAmps Express**](https://compumedicsneuroscan.com/)<br>*(Compumedics)* | **Ch:** 64<br>**Hz:** 1000<br>**Type:** Gel (Passive) | Wired (USB)<br>Lab Workstation | ~$30k–50k | **EEG-ImageNet**<br>*(Song et al., 2024)* |
+| [**ActiCHamp**](https://www.brainproducts.com/solutions/actichamp-plus/)<br>*(Brain Products)* | **Ch:** 64<br>**Hz:** 1000<br>**Type:** Gel (Active) | Wired (USB)<br>Lab Workstation | ~$35k–45k | **THINGS-EEG**<br>*(Grootswagers et al., 2022)* |
+| [**LiveAmp**](https://www.brainproducts.com/solutions/liveamp/)<br>*(Brain Products)* | **Ch:** 32<br>**Hz:** 500<br>**Type:** Gel (Active) | Wireless (BT)<br>Mobile Wearable | ~$20k–25k | **Infant Visual EEG**<br>*(Grootswagers et al., 2025)* |
+| [**BioSemi ActiveTwo**](https://www.biosemi.com/products.htm)<br>*(BioSemi)* | **Ch:** 64+<br>**Hz:** 2048<br>**Type:** Gel (Active) | Wired (USB)<br>Lab Workstation | ~$70k–100k | **Visual Touch EEG**<br>*(Smit et al., 2025)* |
+
 # MEG (Magnetoencephalography)
 
 ## Datasets
-## MEG Datasets
 
 | **Dataset** | **Stimuli / Task** | **Subjects** | **Data Specs** | **Status & Access** |
 | :--- | :--- | :--- | :--- | :--- |
@@ -39,6 +48,12 @@ All resources related to BCI Devices, Models and Devices
 
 
 ## Devices
+
+
+| **Device / Vendor** | **Sensor & Channels** | **Specs** | **Portability** | **Price & Status** | **Notable Features** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **CTF 275 (DSQ-3500)**<br>*(CTF Systems)* | **Type:** SQUID (Axial Grad)<br>**Ch:** 275 (272 active) | **Hz:** 1200<br>**Shield:** Yes (Rigid room) | Fixed<br>(Bed/Chair) | **~$3M**<br>Discontinued<br>*(Replaced by MEGIN Triux)* | Full-head coverage; Millisecond temporal resolution; Widely used legacy system; BIDS compatible. |
+| **QuanMag 64-ch**<br>*(Quanmag Healthcare)* | **Type:** OPM (Rb)<br>**Ch:** 64 | **Hz:** 1000<br>**Shield:** Yes (Custom encl.) | Wearable<br>(Helmet) | **~$1–2M**<br>Available | Wearable design (no cryogenics); Allows head movement; Very high spatial resolution. |
 
 # fMRI (functional Magnetic Resonance Imaging)
 
@@ -63,6 +78,16 @@ All resources related to BCI Devices, Models and Devices
 
 ## Devices
 
+
+
+| **Scanner Model** | **Field** | **Tech Specs** | **Use Case** | **Associated Datasets** | **Est. Price** | **Years** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Siemens MAGNETOM 7T**<br>(CMRR) | 7T | 1.8mm isotropic<br>TR=1.6s<br>32-ch head coil | Ultra-high res whole-brain encoding | **Natural Scenes Dataset (NSD)**<br>StudyForrest (audio-movie) | ~$7–9M (New)<br>~$1–2M (Used) | 2014–2019 |
+| **Varian INOVA 4T** | 4T | ~2.25mm voxels<br>TR=1000ms<br>Occipital coverage | Visual decoding;<br>Early visual responses | **Gallant "Natural Movie"**<br>(vim-2; Nishimoto 2011) | ~$4–5M (New)<br>~$0.5M (Refurb) | 2011 |
+| **Siemens Prisma 3T** | 3T | ~2.7mm iso<br>TR=2000ms<br>Multi-echo EPI | Scene perception;<br>Memory tasks | **Medial Parietal Vision**<br>(Scrivener et al. 2024) | >$2M (New)<br>~$0.5M (Used) | 2024 |
+| **Siemens TIM Verio** | 3T | 2mm isotropic<br>TR=2000ms<br>MB=3 | Slow event-related image viewing | **BOLD5000**<br>(Chang et al. 2019) | >$2M (New)<br>~$0.4M (Used) | 2017–2019 |
+| **Siemens Tim Trio**<br>(UC Berkeley) | 3T | 2.24×2.24×3.5mm<br>TR=2000ms<br>32-ch coil | Natural movie task<br>(Object/Semantic) | **Gallant "Visual Attention"**<br>(vim-4; Cukur 2013) | >$2M (New)<br>~$0.4M (Used) | 2013 |
+
 # fNIRS (functional Near-Infrared Spectroscopy)
 
 ## Datasets
@@ -82,6 +107,21 @@ All resources related to BCI Devices, Models and Devices
 
 ## Devices
 
+| **Device (Model)** | **Manufacturer** | **Specs (Ch / Hz / λ)** | **Portability** | **Software** | **Est. Price** | **Open Datasets** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Brite (MKIII/IV)** | Artinis Medical | **Ch:** 23–27 (4–11src, 7–8det)<br>**Hz:** 50–100<br>**λ:** 760, 850 nm | Wearable<br>(Headcap, 300g) | OxySoft,<br>Brite Connect | ~$40–60k | Cockx et al. (2023)<br>Spapé et al. (2023)<br>Guevara et al. (2024) |
+| **OxyMon (MkIII)** | Artinis Medical | **Ch:** 4–24 (Modular)<br>**Hz:** ~100<br>**λ:** ~760, 850 nm | Lab-based<br>(Cabinet + fiber) | OxySoft | Unknown | (No major open dataset) |
+| **fNIR100B/200B** | BIOPAC | **Ch:** 16 (4src, 10det)<br>**Hz:** 5–12<br>**λ:** 730, 850 nm | Portable<br>(Headband) | COBI Controller,<br>fNIRSoft | ~$30k | (No major open dataset) |
+| **NIRScout** | NIRx | **Ch:** Up to 256<br>**Hz:** 100<br>**λ:** 760, 850 nm | Lab-based<br>(Fiber cart) | NIRStar,<br>Satori | ~$100–130k | Luke et al. (2021)<br>Shader et al. (2021) |
+| **NIRSport2** | NIRx | **Ch:** 8–80 (Scalable)<br>**Hz:** 240<br>**λ:** 760, 850 nm | Wearable<br>(Spring-arm) | Aurora,<br>Turbo-Satori | ~$60–80k | (No major open dataset) |
+| **CW6** | TechEn | **Ch:** 32src, 32det<br>**Hz:** 50<br>**λ:** 690, 830 nm | Lab-based<br>(Fiber to cap) | TechEn SW | ~$60k | Luhmann et al. (2020)<br>*(Resting State)* |
+| **NIRS7 (CW7)** | TechEn | **Ch:** 24src, 8det<br>**Hz:** 50<br>**λ:** 690, 830 nm | Lab-based | TechEn SW | ~$60k | Yücel et al. (2018) |
+| **ETG-4000** | Hitachi | **Ch:** 52 (17src, 17det)<br>**Hz:** 10<br>**λ:** 695, 830 nm | Lab-based<br>(Cart) | Topography Studio | ~$50k | Goldbeck et al. (2019)<br>*(rs-fMRI/fNIRS)* |
+| **NIRSIT** | OBELAB | **Ch:** 48 (24src, 32det)<br>**Hz:** 32.55<br>**λ:** 780, 850 nm | Wearable<br>(Headband, 550g) | NIRSIT App | ~$20–30k | Shang & Liu (2020)<br>*(Mendeley Data)* |
+| **BrainSight** | Rogue Research | **Ch:** ~72 (8–32det)<br>**Hz:** 1–100<br>**λ:** 705, 830 nm | Wearable<br>(Fiber cap) | BrainSight NIRS | ~$80k | (No major open dataset) |
+| **LABNIRS** | Shimadzu | **Ch:** 10–142 (Scalable)<br>**Hz:** ≥100<br>**λ:** 780, 805, 830 nm | Lab-based<br>(Multi-module) | LabNIRS SW | ~$100k+ | (No major open dataset) |
+| **LIGHTNIRS** | Shimadzu | **Ch:** Max 22 (8src, 8det)<br>**Hz:** ~10–50<br>**λ:** 3 Wavelengths | Portable<br>(600g device) | LightNIRS SW | ~$50k | (No major open dataset) |
+| **Spectrum C23** | CortiVision | **Ch:** Up to 150<br>**Hz:** 250<br>**λ:** ~760, 850 nm | Wearable<br>(Harness) | CortiView,<br>CortiPrism | ~$70k | (No major open dataset) |
 
 
 
