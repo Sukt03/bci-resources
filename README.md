@@ -10,7 +10,7 @@ All resources related to BCI
 
 ## Devices
 
-# fMRI
+# fMRI (functional Magnetic Resonance Imaging)
 
 ## Datasets
 
@@ -18,7 +18,7 @@ All resources related to BCI
 
 ## Devices
 
-# fNIRS
+# fNIRS (functional Near-Infrared Spectroscopy)
 
 ## Datasets
 
@@ -26,7 +26,7 @@ All resources related to BCI
 
 ## Devices
 
-# MEG
+# MEG (Magnetoencephalography)
 
 ## Datasets
 
